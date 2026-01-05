@@ -1,0 +1,14 @@
+Start
+Set maxAttempts = 3
+attempts = 0
+While attempts < maxAttempts
+    Input username and password
+    If credentials are correct
+        Display "Login Successful"
+        Exit loop
+    Else
+        attempts = attempts + 1
+End While
+If attempts == maxAttempts
+    Display "Account Locked"
+End
