@@ -7,7 +7,7 @@ While attempts < maxAttempts
         Display "Login Successful"
         Exit loop
     Else
-        attempts = attempts + 1
+        attempts = attempts + 2
 End While
 If attempts == maxAttempts
     Display "Account Locked"
